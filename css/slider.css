@@ -1,0 +1,70 @@
+.image-slider {
+  display: inline-block;
+  border: 0px solid #eeeeee;
+  box-shadow: 0px 10px 6px -3px rgba(0, 0, 0, 0.5);
+  height: 400px;
+  width: 400px;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+.image-slider ul,
+.image-slider li {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.image-slider ul {
+  height: 400px;
+}
+.image-slider li {
+  float: left;
+  position: relative;
+  min-height: 400px;
+  min-width: 400px;
+  text-align: center;
+}
+.image-slider li:hover > a {
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 1;
+}
+.image-slider li img {
+  max-height: 400px;
+  max-width: 400px;
+}
+.image-slider .caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  left: 0;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.65);
+  color: #000000;
+  font-size: 16px;
+}
+.image-slider a {
+  transition: all 0.5s linear;
+  padding: 10px 20px;
+  background: #222;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.image-slider a:hover {
+  background: rgba(5, 5, 5, 0.95) !important;
+  color: #35a8ce;
+}
+.image-slider a.next {
+  position: absolute;
+  right: 0px;
+  top: 45%;
+}
+.image-slider a.previous {
+  position: absolute;
+  left: 0px;
+  top: 45%;
+}
