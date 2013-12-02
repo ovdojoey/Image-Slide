@@ -4,21 +4,20 @@ Image-Slide
 Simple JavaScript tool for image sliding / fading carousal. 
 
 
-NOTE: Requires jQuery library.   CSS and LESS files are included for custom styling.  It is recommended to use LESS for easy access to constants. 
-
+NOTE: CSS and LESS files are included for custom styling.  If you are familiar with LESS, it is recommended to use LESS so the variables changes throughout the CSS. 
 
 
 Parameters: 
 
 	data-transition
-		can be either fade or slide
+		Can be either fade or slide
 
 	data-scrollspeed
-		allows for variable speeds on the fade or slide
+		Allows for variable speeds on the fade or slide
 	
 	
 
-NOTE:  Include JS file after jQuery library.  Slider.js is non-minified, slider-ck.js is minified for faster loading.
+NOTE:  Include JS file after loading jQuery library.  Slider.js is non-minified, slider-ck.js is minified for faster loading.
 
 
 Required components:
