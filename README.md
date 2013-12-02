@@ -20,7 +20,7 @@ Parameters:
 
 BASIC HTML USAGE:
 
-<pre>
+<!—
 
 <div id="image-slider" data-transition="fade" data-scrollspeed="500">
 	<ul>
@@ -57,7 +57,7 @@ BASIC HTML USAGE:
 $(‘#image-slider').imageslider();
 </script>
 
-</pre>
+!->
 
 NOTE: Slider.js is non-minified, include slider-ck.js for faster loading.
 
