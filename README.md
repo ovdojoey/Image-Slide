@@ -4,7 +4,7 @@ Image-Slide
 Simple JavaScript tool for image sliding / fading carousal. 
 
 
-NOTE: Requires jQuery libraries.   CSS and LESS files are included for custom styling.  It is recommended to use LESS for easy access to constants. 
+NOTE: Requires jQuery library.   CSS and LESS files are included for custom styling.  It is recommended to use LESS for easy access to constants. 
 
 
 
