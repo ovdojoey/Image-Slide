@@ -1,7 +1,7 @@
 Image-Slide
 ===========
 
-Simple JavaScript tool for image sliding / fading carousal. 
+Simple jQuery plugin for image sliding / fading carousal. 
 
 
 NOTE: CSS and LESS files are included for custom styling.  If you are familiar with LESS, it is recommended to use LESS so variable requirements update throughout. 
