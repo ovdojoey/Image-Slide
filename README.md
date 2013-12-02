@@ -4,7 +4,7 @@ Image-Slide
 Simple jQuery plugin for image sliding / fading carousal. 
 
 
-NOTE: CSS and LESS files are included for custom styling.  If you are familiar with LESS, it is recommended to use LESS so variable requirements update throughout. 
+NOTE: CSS and LESS files are included for custom styling.  If you are familiar with LESS, it is recommended to use LESS so variables update throughout. 
 
 
 Parameters: 
