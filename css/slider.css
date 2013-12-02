@@ -7,7 +7,6 @@
   background: #ffffff;
   position: relative;
   overflow: hidden;
-  overflow: auto;
 }
 .image-slider ul,
 .image-slider li {
