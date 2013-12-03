@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div style='text-align:center; padding:20px;'>
+<div style='text-align:center; padding:20px; min-width:1050px;'>
 
 <!-- Basic Usage Example Below:
 	
@@ -22,6 +22,10 @@
 	data-scrollspeed is the speed between transitions
 	
 -->
+
+<table>
+	<tr>
+	<td style="width:50%;">
 
 
 	<div class="image-slider" data-transition="slide" data-scrollspeed="500">
@@ -52,6 +56,43 @@
 			</li>
 		</ul>
 	</div>
+	</td>
+	<td>
+	
+	<div class="image-slider" data-transition="fade" data-scrollspeed="800">
+		<ul>
+			<li>
+				<img src="img/winter-500.jpg" alt="Winter" />
+				<a class="previous" href="#">&#9664;</a>
+				<a class="next" href="#">&#9654;</a>
+				<span class="caption">1. Winter and wonder</span>
+			</li>
+			<li>
+				<img src="img/winter2-500.jpg" alt="Winter" />
+				<a class="previous" href="#">&#9664;</a>
+				<a class="next" href="#">&#9654;</a>
+				<span class="caption">2. Snow and trees</span>	
+			</li>
+			<li>
+				<img src="img/red-winter500.jpg" alt="Winter" />
+				<a class="previous" href="#">&#9664;</a>
+				<a class="next" href="#">&#9654;</a>
+				<span class="caption">3. Red Winter</span>	
+			</li>
+			<li>
+				<img src="img/beach-bg.jpg" alt="Beach" />
+				<a class="previous" href="#">&#9664;</a>
+				<a class="next" href="#">&#9654;</a>
+				<span class="caption">4. Beach</span>	
+			</li>
+		</ul>
+	</div>
+	
+	
+	
+	</td>
+	</tr>
+</table>
 </div>
 
 <script src="../js/jquery-1.10.2.min.js"></script>
