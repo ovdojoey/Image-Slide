@@ -17,7 +17,7 @@ Parameters:
 	
 	
 
-NOTE:  Include JS file after loading jQuery library.  Slider.js is non-minified, slider-ck.js is minified for faster loading.
+NOTE:  Include slider.js or slider-ck.js file after loading jQuery library, slider-ck.js is minified.
 
 
 Required components:
