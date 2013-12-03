@@ -84,3 +84,32 @@
 	}
 	
 }
+
+/************ Optional dark and light styles **************/
+/**********************************************************/
+
+.dark-theme{
+	background: #000 !important;
+	border:10px solid #333;
+	
+	a{
+		background: transparent !important;
+		&:hover{
+			background: transparent !important;
+		}
+	}
+	.caption{
+		background: rgba(0,0,0,0.25) !important;
+		padding: 10px 0 !important;
+		color: #fff !important;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight: 300;
+	}
+	a.next,a.previous{
+		font-size: 1.5em;
+	}
+}
+.light-theme{
+	box-shadow: 0px 0px 22px -1px rgba(0,0,0,0.5);
+	border: 10px solid #f3f3f3;
+}
